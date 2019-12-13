@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1060023094657",
+    "firebase_url": "https://simplesocialnetworkingapp.firebaseio.com",
+    "project_id": "simplesocialnetworkingapp",
+    "storage_bucket": "simplesocialnetworkingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060023094657:android:fe1bc72b78b59d94282c80",
+        "android_client_info": {
+          "package_name": "com.example.simplesocialnetworkingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060023094657-0dk8b13967v34oc0a9aksdrs2gpg1fpp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.simplesocialnetworkingapp",
+            "certificate_hash": "e196b0c8756dd7cb8cf295c541087bccc88b3f07"
+          }
+        },
+        {
+          "client_id": "1060023094657-pfkj9ioost3b4b86b4tm3q2hhrcomiam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8BzH6Vdw34SKWYf_6NorU4kbUw5uuDEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060023094657-pfkj9ioost3b4b86b4tm3q2hhrcomiam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

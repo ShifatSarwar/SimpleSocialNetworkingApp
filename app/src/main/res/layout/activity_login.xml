@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".LoginActivity">
 
 
@@ -17,28 +18,34 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <ImageView
-                android:id="@+id/login_image"
+            <TextView
+                android:id="@+id/title_label"
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:src="@drawable/login_photo"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:scaleType="fitCenter"
-                />
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="The Social Key"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="23dp"
+                android:textAlignment="center"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
+
+
 
             <EditText
                 android:id="@+id/login_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/title_label"
                 android:layout_alignParentStart="true"
-                android:layout_below="@+id/login_image"
                 android:hint="Email..."
                 android:inputType="textEmailAddress"
-                android:background="@drawable/inputs"
-                android:padding="4dp"
+                android:background="#ffffff"
+                android:padding="5dp"
                 android:drawableStart="@drawable/email"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="100dp"
                 android:layout_marginLeft="17dp"
                 android:layout_marginRight="17dp"
                 />
@@ -51,8 +58,8 @@
                 android:layout_below="@+id/login_email"
                 android:hint="Password..."
                 android:inputType="textPassword"
-                android:background="@drawable/inputs"
-                android:padding="4dp"
+                android:background="#ffffff"
+                android:padding="5dp"
                 android:drawableStart="@drawable/password"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="17dp"
@@ -65,15 +72,14 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/login_password"
-                android:text="Forget Password ?"
+                android:text="Forgot Password ?"
                 android:layout_marginTop="2dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="23dp"
                 android:textAlignment="textEnd"
                 android:textSize="17sp"
                 android:textStyle="bold"
-                android:textColor="@color/colorPrimaryDark"
-                />
+                android:textColor="#ffffff"/>
 
             <Button
                 android:id="@+id/login_button"
@@ -97,15 +103,14 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/login_button"
-                android:text="Need new Account ?"
+                android:text="Need User? Sign up"
                 android:layout_marginTop="2dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="23dp"
                 android:textAlignment="center"
                 android:textSize="17sp"
                 android:textStyle="bold"
-                android:textColor="@color/colorPrimaryDark"
-                />
+                android:textColor="#ffffff"/>
 
             <TextView
                 android:id="@+id/login_using"
@@ -113,11 +118,28 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/need_new_account_link"
-                android:text="or Login using your"
+                android:text="---------------------or---------------------"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="23dp"
                 android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/login_using_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/login_using"
+                android:text="Login using phone:"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="23dp"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
                 android:textSize="17sp"
                 android:textStyle="bold"
                 />
@@ -126,15 +148,15 @@
                 android:id="@+id/phone_login_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/login_using"
-                android:padding="4dp"
+                android:layout_below="@+id/login_using_phone"
+                android:padding="5dp"
                 android:layout_marginTop="4dp"
                 android:layout_marginLeft="19dp"
                 android:layout_marginRight="19dp"
-                android:text="Phone"
+                android:text="Phone       "
                 android:textAllCaps="false"
-                android:textSize="14sp"
-                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:textColor="#ffffff"
                 android:background="@drawable/buttons"
                 android:drawableStart="@drawable/phone"
                 />

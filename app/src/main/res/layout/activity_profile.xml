@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/profile_activity"
+    android:background="#000000"
     tools:context=".ProfileActivity">
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -27,6 +27,7 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="5dp"
         android:textAlignment="center"
+        android:textColor="#ffffff"
         android:textAllCaps="false"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -37,12 +38,13 @@
         android:id="@+id/visit_profile_status"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="hey i'm using Coding Cafe chat App."
+        android:text="I am Awesome"
         android:layout_below="@+id/visit_user_name"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:layout_marginTop="25dp"
         android:textAlignment="center"
+        android:textColor="#ffffff"
         android:textAllCaps="false"
         android:textSize="25sp"
         android:textStyle="bold"

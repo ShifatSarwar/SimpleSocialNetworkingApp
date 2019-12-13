@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".PhoneLoginActivity">
 
     <EditText
@@ -14,7 +15,7 @@
         android:layout_marginStart="17dp"
         android:layout_marginEnd="17dp"
         android:layout_marginTop="180dp"
-        android:background="@drawable/inputs"
+        android:background="#ffffff"
         android:padding="8dp"
         android:hint="Write phone number here..."
         android:textAllCaps="false"
@@ -32,7 +33,7 @@
         android:layout_marginStart="17dp"
         android:layout_marginEnd="17dp"
         android:layout_marginTop="4dp"
-        android:background="@drawable/inputs"
+        android:background="#ffffff"
         android:layout_below="@+id/phone_nnumber_input"
         android:padding="5dp"
         android:hint="Write verification code here..."

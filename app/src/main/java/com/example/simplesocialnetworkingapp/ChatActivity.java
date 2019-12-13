@@ -223,7 +223,7 @@ public class ChatActivity extends AppCompatActivity {
 
         if (TextUtils.isEmpty(messageText))
         {
-            Toast.makeText(this, "first write your message...", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Write your message...", Toast.LENGTH_SHORT).show();
         }
         else
         {

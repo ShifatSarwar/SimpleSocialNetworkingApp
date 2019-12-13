@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity
 
         mToolbar = (Toolbar) findViewById(R.id.main_page_toolbar);
         setSupportActionBar(mToolbar);
-        getSupportActionBar().setTitle("WhatsApp");
+        getSupportActionBar().setTitle("The Social Key");
 
 
         myViewPager = (ViewPager) findViewById(R.id.main_tabs_pager);
@@ -120,10 +120,8 @@ public class MainActivity extends AppCompatActivity
             {
                 if ((dataSnapshot.child("name").exists()))
                 {
-                    Toast.makeText(MainActivity.this, "Welcome", Toast.LENGTH_SHORT).show();
-                }
-                else
-                {
+                  //  Toast.makeText(MainActivity.this, "Welcome", Toast.LENGTH_SHORT).show();
+                } else {
                     SendUserToSettingsActivity();
                 }
             }
@@ -235,7 +233,6 @@ public class MainActivity extends AppCompatActivity
 
 
     private void SendUserToFindFriendsActivity() {
-        Toast.makeText(this, "ko", Toast.LENGTH_SHORT).show();
         Intent findFriendsIntent = new Intent(MainActivity.this, FindFriendsActivity.class);
         startActivity(findFriendsIntent);
     }

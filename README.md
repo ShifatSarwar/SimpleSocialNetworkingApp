@@ -1,0 +1,2 @@
+# SimpleSocialNetworkingApp
+WhatsApp Replica
